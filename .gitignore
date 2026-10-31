@@ -55,6 +55,9 @@ codex/
 # Environment variables (nunca commitear tokens)
 .env
 .env.local
+.nvidia.env
+*.nvidia.env
+.linear.env
 
 # Backend build artifacts
 apps/backend/dist/
@@ -179,3 +182,9 @@ examples/**/.packages
 !.gitkeep
 .superpowers/
 docs/site/site/
+
+# Agent / git worktrees (transient, never committed)
+.agents/
+.agents/worktrees/
+.worktrees/
+.claude/worktrees/
