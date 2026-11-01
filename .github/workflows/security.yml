@@ -32,9 +32,8 @@ jobs:
         with:
           languages: |
             go
-            typescript
             javascript
-          language-category: typescript
+          language-category: javascript
           config-scan-ref: .
           iac-scan-ref: infrastructure/terraform
           dependency-scan-ref: apps/hacienda-sidecar
